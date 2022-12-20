@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+body {
+    background-color: #FFCACA;
+    color: rgb(0, 0, 0);
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    height: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none; 
+}
+
+h1 {
+    text-align: center;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    margin-top: auto; 
+    min-height: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}

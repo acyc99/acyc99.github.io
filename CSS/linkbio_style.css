@@ -1,0 +1,108 @@
+body {
+    margin: 0; 
+    padding: 0; 
+    background-color: #f5c1cb;
+    color: rgb(0, 0, 0);
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+header {
+    width: 95%;
+    max-width: 788px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+.container {
+    width: 91%; 
+    max-width: 680px;
+    margin: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px; 
+    color: rgb(0, 0, 0);
+}
+
+a:visited {
+    color: #2A3990;
+}
+
+.share-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: palevioletred;
+}
+
+.share-button:hover, .tile-share-button:hover {
+    transform: scale(1.5);
+    background-color: #CB1C8D; 
+}
+
+.share-button svg:hover {
+    transform: scale(1.5);
+}
+
+.share-button svg, .tile-share-button svg {
+    margin-left: 3px;
+    margin-top: 1px; 
+}
+
+.tile {
+    width: 100%; 
+    border-radius: 17px;
+    background-color: whitesmoke;
+    margin: 7px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile:hover {
+    transform: scale(1.02);
+    /* cubic-bezier(x1,y1,x2,y2) */
+    transition: cubic-bezier(0.07, 1.41, 0.82, 1.41) 0.2s;
+}
+
+.tile-share-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(216, 112, 147);
+    margin: 8px; 
+}
+
+.image-container {
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-color: palevioletred;
+    border-width: 5px; 
+    border-radius: 100%;
+    overflow: hidden; 
+}
+
+.image-container img {
+    height: 100%;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    margin: 4px 8px; /* top/bottom & left/right */ 
+}
