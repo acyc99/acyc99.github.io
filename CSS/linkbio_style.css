@@ -1,8 +1,17 @@
+:root {
+    --bg-color: rgb(245, 193, 203); 
+    --text-color: rgb(0, 0, 0);
+    --vis-text-color: rgb(42, 57, 144); 
+    --button-color: rgb(216, 112, 147);
+    --hov-but-color: rgb(203, 28, 141);
+    --tile-bg-color: rgb(245, 245, 245);
+}
+
 body {
     margin: 0; 
     padding: 0; 
-    background-color: #f5c1cb;
-    color: rgb(0, 0, 0);
+    background-color: var(--bg-color);
+    color: var(--text-color);
     font-family: 'JetBrains Mono', monospace;
     display: flex;
     align-items: center;
@@ -36,23 +45,23 @@ h1 {
 a {
     text-decoration: none;
     font-size: 18px; 
-    color: rgb(0, 0, 0);
+    color: var(--text-color);
 }
 
 a:visited {
-    color: #2A3990;
+    color: var(--vis-text-color);
 }
 
 .share-button {
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    background-color: palevioletred;
+    background-color: var(--button-color);
 }
 
 .share-button:hover, .tile-share-button:hover {
     transform: scale(1.5);
-    background-color: #CB1C8D; 
+    background-color: var(--hov-but-color); 
 }
 
 .share-button svg:hover {
@@ -67,7 +76,7 @@ a:visited {
 .tile {
     width: 100%; 
     border-radius: 17px;
-    background-color: whitesmoke;
+    background-color: var(--tile-bg-color);
     margin: 7px; 
     display: flex;
     justify-content: space-between;
@@ -83,7 +92,7 @@ a:visited {
     width: 40px;
     height: 40px;
     border-radius: 20px;
-    background-color: rgb(216, 112, 147);
+    background-color: var(--button-color);
     margin: 8px; 
 }
 
@@ -91,7 +100,7 @@ a:visited {
     height: 100px;
     width: 100px;
     border-style: solid;
-    border-color: palevioletred;
+    border-color: var(--button-color);
     border-width: 5px; 
     border-radius: 100%;
     overflow: hidden; 
