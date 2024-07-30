@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E6E6FA;
+    padding: 30px;
+    position: relative;
+}
+
+.left-nav-logo {
+    height: 80px;
+    width: auto;
+    margin-left: 10px;
+}
+
+.centre-nav-logo {
+    height: 130px;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* .content {
+    padding: 20px;
+} */
