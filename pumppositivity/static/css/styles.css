@@ -1,6 +1,20 @@
-body {
+html, body {
     margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    color: #333333;
     font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .navbar {
@@ -26,6 +40,33 @@ body {
     transform: translateX(-50%);
 }
 
+.right-nav-logo {
+    height: 85px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.background-left {
+    left: 0;
+    background-image: url('static/images/background-left.jpg'); /* Replace with your image path */
+}
+
+.background-right {
+    right: 0;
+    background-image: url('static/images/background-right.jpg'); /* Replace with your image path */
+}
+
 /* .content {
     padding: 20px;
 } */
+
+footer {
+    background-color: #ffdfdf;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-logo {
+    height: 85px;
+    width: auto;
+}
