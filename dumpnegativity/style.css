@@ -20,9 +20,9 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    background: #000000b3;
     padding: 10px;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 -2px 5px #0000004d;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,22 +47,25 @@ body {
 #throwButton {
     background-color: #000000;
     border-color: #ffffff;
-    color: white;
+    color: #ffffff;
 }
 
 #throwButton:hover {
     background-color: #ffffff;
-    /* border-color: #c82333;  */
+    border-color: #778899; 
     color: #000000;
 }
 
 #clearButton {
-    background-color: #dc3545;
-    color: white;
+    background-color: #000000;
+    border-color: #ffffff;
+    color: #ffffff;
 }
 
 #clearButton:hover {
-    background-color: #c82333;
+    background-color: #ffffff;
+    border-color: #778899; 
+    color: #000000;
 }
 
 
