@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#logo {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+#logo img {
+    width: 180px; /* Adjust the size as needed */
+    height: auto;
+}
+
+#chatbox {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+#messageInput {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333;
+}
+
+#throwButton,  #clearButton {
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#throwButton {
+    background-color: #000000;
+    border-color: #ffffff;
+    color: white;
+}
+
+#throwButton:hover {
+    background-color: #ffffff;
+    /* border-color: #c82333;  */
+    color: #000000;
+}
+
+#clearButton {
+    background-color: #dc3545;
+    color: white;
+}
+
+#clearButton:hover {
+    background-color: #c82333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* style.css */
+/* body {
+    margin: 0;
+    overflow: hidden;
+    background: #f0f0f0;
+}
+
+#chatbox {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+#messageInput {
+    width: 95%;
+    padding: 5px;
+}
+
+#submitButton {
+    padding: 5px 10px;
+} */
